@@ -10,58 +10,153 @@
 <body>
   <header>
     <img src="assets/codepay..svg" />
+
     <li>Início</li>
     <li>Comprar</li>
     <li>Contato</li>
     <li>Ajuda</li>
+
     <nav>
       <span>Conta </span>
       <img src="assets/Vector.svg" />
     </nav>
+
     <nav>
       <span>2 itens </span>
       <img src="assets/car.svg" />
     </nav>
+
   </header>
+
   <div>
     <ul>
+
       <li>
         <img src="assets/user.svg" />
         <span>Conta</span>
       </li>
+
       <li>
         <img src="assets/package.svg" />Envio</span>
       </li>
+
       <li>
         <img src="assets/wallet.svg" />
         <span>Pagamento</span>
       </li>
+
     </ul>
+
   </div>
+
   <main>
-    <form>
+
+    <!-- <div class="conta">
       <h1>Detalhes da Conta</h1>
-      <label>Email</label>
-      <input type="email" />
-      <labe>Senha</labe>
-      <input type="password" />
-      <span>Registre-se para conta</span>
-      <button>Entrar</button>
+
+      <form>
+
+        <label>Email</label>
+        <input type="email" />
+
+        <labe>Senha</labe>
+        <input type="password" />
+
+      </form>
+
+      <div>
+        <span>Registre-se para conta</span>
+        <button>Entrar</button>
+      </div>
+
       <hr>
+
+    </div> -->
+
+    <div class="envio">
+      <h1>Detalhes do envio</h1>
+
+      <form>
+
+        <label>Usar o endereço salvo</label>
+        <select id="endereco" name="endereco">
+          <option value="Carlos Rodrigo, 345">Carlos Rodrigo, 345</option>
+        </select>
+
+        <label>Cidade</label>
+        <input type="text" value="Guarantã" />
+
+        <Label>Rua, Bairro</Label>
+        <input type="text" value="Manoel Ribeiro, Karoline Ferreira" />
+
+        <input type="number" value="123" />
+        <select id="cidade" name="cidade">
+          <option value="São Paulo">São Paulo</option>
+        </select>
+
+      </form>
+
+      <!-- <div>
+        <span>Registre-se para conta</span>
+        <button>Entrar</button>
+      </div> -->
+
+      <hr />
+    </div>
+
+    <!-- <div class="pagamento">
+      <h1>Detalhes do pagamento</h1>
+
+      <label>Usar cartão salvo</label>
+      <select id="pagamento" name="pagamento">
+        <option value="Iuri Souza Silva, 736327...">Iuri Souza Silva, 736327...</option>
+      </select>
+
+      <label>Nome do cartão</label>
+      <input type="text" value="Iuri Souza Silva" />
+
+      <label>Número do cartão</label>
+      <input type="text" value="123-456-789/0" />
+
+      <label>Expiração</label>
+      <input type="number" value="03" />
+
+      /
+
+      <input type="number" value="24" />
+      <label>CVC</label>
+
+      <input type="number" value="123" />
+      </form>
+
+      <div>
+        <span>Registre-se para conta</span>
+        <button>Entrar</button>
+      </div>
+
+      <hr>
+    </div> -->
+
+    <div>
       <a href="#">Cancelar pedido</a>
       <button>Continuar comprando</button>
-    </form>
+    </div>
+
     <div>
       <h2>Resumo do Pedido</h2>
+
       <div>
         <img src="assets/mouse.png" alt="mouse">
       </div>
+
       <div>
         <span>Mouse Gamer Redragon</span>
         <nav>R$ 15,00</nav>
         <nav>- 2 +</nav>
       </div>
+
     </div>
+
     <div>
       <input type="text" placeholder="Cupom de desconto" />
       <button>Aplicar</button>
@@ -69,7 +164,9 @@
       <nav>Envio Grátis</nav>
       <nav>Total R$ 18,40</nav>
     </div>
+
   </main>
+
 </body>
 
 </html>
